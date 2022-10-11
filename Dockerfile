@@ -87,6 +87,7 @@ COPY --from=debian /lib/${LIB_DIR_PREFIX}-linux-gnu/libblkid.so.1 \
                    /lib/${LIB_DIR_PREFIX}-linux-gnu/libtinfo.so.6 \
                    /lib/${LIB_DIR_PREFIX}-linux-gnu/libudev.so.1 \
                    /lib/${LIB_DIR_PREFIX}-linux-gnu/libuuid.so.1 \
+                   /lib/${LIB_DIR_PREFIX}-linux-gnu/liblzma.so.5 \
                    /lib/${LIB_DIR_PREFIX}-linux-gnu/libz.so.1 /lib/${LIB_DIR_PREFIX}-linux-gnu/
 
 COPY --from=debian /usr/lib/${LIB_DIR_PREFIX}-linux-gnu/libacl.so.1 \
